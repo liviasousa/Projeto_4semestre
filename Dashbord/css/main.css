@@ -1,0 +1,53 @@
+main{
+    display: block;
+    height: 100%;
+    background-color: #f7f7f7;
+    width: calc(100% - 300px);
+}
+
+main .main-content{
+    padding: 30px;
+    width: 100%;
+    border: 1px solid  #cccccc;
+    height: calc(100% - 90px);
+    overflow-y: auto;
+}
+
+.main-content .paniel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin: 10px 0;
+}
+
+.panel-IOW{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px;
+}
+
+.panel-50{
+    width: 48%;
+}
+.panel-IOW button {
+    height: 100px;
+    background-color: #00A99D;
+    font-size: 22px;
+    color: blanchedalmond;
+}
+.panel-IOW button:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+div#ajax-content {
+    width: 100;
+    border: 1px solid red;
+    height: 50;
+    margin-top:20px ;
+}
